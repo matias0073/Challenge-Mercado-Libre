@@ -1,0 +1,117 @@
+/*Index*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+}
+
+header {
+    background-color: rgb(255, 230, 0);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.img1 {
+    max-width: 80px;
+    float: left;
+}
+
+.img2 {
+    max-width: 35px;
+    float: right;
+}
+
+.contador{
+    float: right;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input[type="text"] {
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+header button {
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#productList {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 2rem);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.product h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+
+
+/*Carrito*/
+
+.cart-item {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 300px;
+            display: felx;
+            vertical-align: top;
+            margin-right: 10px;
+        }
+
+        .cart-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .cart-item h2 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .cart-item p {
+            font-size: 1rem;
+            color: #333;
+        }
+        .cart-item + .cart-item {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
